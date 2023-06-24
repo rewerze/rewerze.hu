@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(33, 37, 41);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.121);
+    text-align: center;
+    padding: 10px 0px 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.links {
+    padding: 70px;
+    width: max-content;
+}
+
+.fix-width {
+    width: 400px;
+}
