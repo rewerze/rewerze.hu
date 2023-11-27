@@ -19,3 +19,9 @@ h1 {
 .fix-width {
     width: 400px;
 }
+
+.bottom-left {
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+}
