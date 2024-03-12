@@ -15,5 +15,5 @@ function copyToClipboard(text) {
     button.classList.remove("btn-outline-success");
     button.classList.add("dc");
     button.innerHTML = "Discord";
-  }, 2000);
+  }, 1500);
 }
