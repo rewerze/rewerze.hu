@@ -7,13 +7,13 @@ function copyToClipboard(text) {
   document.body.removeChild(name);
 
   const button = document.querySelector("button");
-  button.classList.remove("dc");
+  button.classList.remove("discord");
   button.classList.add("btn-outline-success");
   button.innerHTML = "Név kimásolva";
 
   setTimeout(() => {
     button.classList.remove("btn-outline-success");
-    button.classList.add("dc");
+    button.classList.add("discord");
     button.innerHTML = "Discord";
   }, 1500);
 }
