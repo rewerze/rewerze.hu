@@ -1,0 +1,2 @@
++ end portal háttér
++ header, footer bedrock háttér
