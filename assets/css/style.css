@@ -19,18 +19,41 @@ h1 {
 }
 
 .bottom-left {
-    position: fixed;
+    position:fixed;
     bottom: 10px;
     left: 15px;
+
 }
+
 
 p {
   margin: 0 10%;
 }
 
 .logo {
-  max-width: 10%;
+  width: 0%;
   float: left;
+}
+.logo-top {
+  width: 10%;
+  float: left;
+}
+
+
+
+a:hover .logo {
+  width: 10%;
+}
+a:hover .logo-top {
+  width: 0%;
+}
+
+
+button:hover .logo {
+  width: 10%;  
+}
+button:hover .logo-top {
+  width: 0%;   
 }
 
 .logo-mc {
