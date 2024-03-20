@@ -39,6 +39,11 @@ p {
   float: left;
 }
 
+.logo-mc {
+  margin-top: 3px;
+  max-width: 8%;
+  float: left;
+}
 
 
 a:hover .logo {
@@ -56,11 +61,6 @@ button:hover .logo-top {
   width: 0%;   
 }
 
-.logo-mc {
-  margin-top: 3px;
-  max-width: 8%;
-  float: left;
-}
 
 .yt {
     --bs-btn-color: #ff0000;
@@ -206,5 +206,12 @@ button:hover .logo-top {
       background: #212529;
       border-radius: 5px;
       animation: opacityChange 3s infinite alternate;
+    }
+  }
+  
+
+  @media screen and (max-width: 430px){
+    .rainbow {
+      width: 350px;
     }
   }
