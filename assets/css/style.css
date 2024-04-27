@@ -2,6 +2,7 @@ body {
     background-color: #212529;
     font-family: 'Ubuntu', sans-serif;
     overflow: hidden;
+    color: white;
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
     font-size: 50px;
 }
 
-.container {
+.mid {
     margin-top: 10%;
     display: flex;
     justify-content: center;
