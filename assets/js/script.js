@@ -1,20 +1,3 @@
-//Home:search
-document
-  .getElementById("search-button")
-  .addEventListener("click", function (event) {
-    var searchTerm = document.getElementById("search-input").value.trim(); // Keresési kifejezés lekérése és whitespace eltávolítása
-
-    if (searchTerm !== "") {
-      // Ha van beírt kifejezés
-      var searchUrl = "/kereses/" + encodeURIComponent(searchTerm); // Összeállítjuk a keresési URL-t
-
-      // Átirányítás a keresési URL-re
-      window.location.href = searchUrl;
-    } else {
-      alert("Kérlek írj be valamit a kereséshez!"); // Ha nincs beírt kifejezés, jelenítse meg az üzenetet
-    }
-  });
-
 //Social:Discord
 function copyToClipboard(text) {
   const name = document.createElement("textarea");
