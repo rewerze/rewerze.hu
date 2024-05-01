@@ -8,3 +8,5 @@
 - Plusz oldalak hozzáadása
 - Szebb háttér design
 - Navbar rework
+- Load in animáció
+- 404 page
