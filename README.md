@@ -1,5 +1,5 @@
 # Ismert hibák:
-- NINCS, jelezz ha találtál valamit!
+- Minden, hamarosan javúl:')
 
 # Tervezés alatt
 - Home + About page tovább fejlesztése
