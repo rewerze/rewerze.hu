@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 
@@ -14,19 +16,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/script.js"></script>
 </head>
+
 <body>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <!--Navigation bar-->
-    <div id="nav-placeholder">
+    <div class="w3-animate-opacity w3-animate-bottom">
+        <!-- NAV -->
+        <?php
+        $title = "About";
+        include "../nav.php";
+        ?>
+
+        <h1 style="text-align: center; margin-top: 300px">Work in Progress!</h1>
     </div>
-
-    <script>
-    $(function(){
-    $("#nav-placeholder").load("../nav.html");
-    });
-    </script>
-    <!--end of Navigation bar-->
-
-    <h1 class="container">Work in Progress!</h1>
 </body>
+
 </html>

@@ -1,8 +1,8 @@
 body {
     background-color: #212529;
     font-family: 'Ubuntu', sans-serif;
-    overflow: hidden;
     color: white;
+    scrollbar-width:none;
 }
 
 .home {
@@ -10,16 +10,10 @@ body {
   font-size:x-large;
 }
 
-nav {
-  background-color: rgba(0, 0, 0, 0.125);
-}
-
 
 h1 {
-    text-align: center;
-    margin-top: 300px;
     color: white;
-    font-size: 50px;
+    margin: 30px 10px 0px 0px;
 }
 
 .mid {
@@ -40,7 +34,13 @@ h1 {
 }
 
 p {
-  margin: 0 10%;
+  margin: 0 10px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.main-center {
+  text-align: center;
 }
 
 .logo {
@@ -52,8 +52,12 @@ p {
   float: left;
 }
 
+.logo, .logo-top {
+  margin-top: 1px;
+}
+
 .logo-mc {
-  margin-top: 3px;
+  margin-top: 3.5px;
   max-width: 8%;
   float: left;
 }
@@ -240,7 +244,7 @@ button:hover .logo-top {
   }
   
 
-  @media screen and (max-width: 430px){
+  @media screen and (max-width: 991px){
     .rainbow {
       width: 350px;
     }
