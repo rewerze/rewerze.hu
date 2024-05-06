@@ -43,6 +43,11 @@ p {
   text-align: center;
 }
 
+.social-text {
+  text-align: center;
+  margin-top: 3px;
+}
+
 .logo {
   width: 0%;
   float: left;
