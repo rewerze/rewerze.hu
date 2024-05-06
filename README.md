@@ -1,6 +1,5 @@
 # Ismert hibák:
-- Nav nincs középen
-- Linkek nem működnek a social oldalon
+- Minden, hamarosan javúl:')
 
 # Tervezés alatt
 - Home + About page tovább fejlesztése
