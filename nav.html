@@ -45,9 +45,14 @@
         document.getElementById('search-form').addEventListener('submit', function (event) {
             event.preventDefault();
 
-            var searchTerm = document.getElementById('search-input').value.trim();
+            var userSearchTerm = document.getElementById('search-input').value.trim();
+            var searchTerm = userSearchTerm.toLowerCase();
 
-            if (searchTerm !== '') {
+            if (searchTerm == "home") {
+                window.location.href = "/";
+            }
+            
+            else if (searchTerm !== '') {
                 var searchUrl = '/' + encodeURIComponent(searchTerm);
 
                 window.location.href = searchUrl;
