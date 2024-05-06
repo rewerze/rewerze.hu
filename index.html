@@ -12,21 +12,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </head>
 
 <body>
     <div class="w3-animate-opacity w3-animate-bottom">
         <!-- NAV -->
-        <div w3-include-html="../nav.html"></div>
+        <div id="target"></div>
         <script>
-            includeHTML();
+        fetch('./nav.html')
+            .then(response => response.text())
+            .then(html => {
+            document.getElementById('target').innerHTML = html;
+            });
         </script>
+
 
         <!-- Szöveg -->
         <div class="container">
