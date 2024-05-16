@@ -33,11 +33,26 @@
         <script>
             document.getElementById("endpointForm").addEventListener("submit", function(event) {
             event.preventDefault();
-            var endpoint = document.getElementById("endpointInput").value.trim();
-            if (endpoint !== "") {
-                window.location.href = endpoint;
-            } else {
-                alert("Légyszi, írd be az oldalt amire szeretnél keresni!");
+            var userEndpoint = document.getElementById("endpointInput").value.trim();
+            String(userEndpoint);
+            var endpoint = userEndpoint.toLowerCase();
+            
+            switch(endpoint) {
+                case "home":
+                    window.location.href = "/";
+                    break;
+                case (endpoint == "youtube" || endpoint == "yt"):
+                    window.location.href = "https://youtube.com/rewerze";
+                    break;
+                case "twitch":
+                    window.location.href = "https://twitch.tv/rewerzexd";
+                    break;
+                case "":
+                    alert("Légyszi, írd be az oldalt amire szeretnél keresni!");
+                    break;
+                default:
+                    window.location.href = endpoint;
+                    break;
             }
         });
             </script>

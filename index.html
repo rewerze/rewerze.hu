@@ -2,7 +2,7 @@
 <html lang="hu">
 
 <head>
-    <title>Főoldal</title>
+    <title>rewerze</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,13 +22,9 @@
 <body>
     <div class="w3-animate-opacity w3-animate-bottom">
         <!-- NAV -->
-        <div id="target"></div>
+        <div w3-include-html="./nav.html"></div>
         <script>
-        fetch('./nav.html')
-            .then(response => response.text())
-            .then(html => {
-            document.getElementById('target').innerHTML = html;
-            });
+            includeHTML();
         </script>
 
 
@@ -53,11 +49,19 @@
             <p>Jelenleg még nincs túl sok <b>publikus</b> lehetőség, de folyamatosan bővülni fog az oldal idővel. Addig
                 is
                 itt van pár:</p>
-            <ul>
-                <li>Home</li>
-                <li>Social</li>
-                <li>AboutMe</li>
-            </ul>
+            <div class="container text-center" style="margin-top: 10px;">
+                <div class="row">
+                    <div class="col" style="border-right: white solid 2px;">Home</div>
+                    <div class="col" style="border-right: white solid 2px;">Socials</div>
+                    <div class="col" style="border-right: white solid 2px;">AboutMe</div>
+                    <div class="col"  style="border-right: white solid 2px;">Tábla (W.I.P.)</div>
+                    <div class="col" style="border-right: white solid 2px;">Twitch</div>
+                    <div class="col">Youtube / YT</div>
+                </div>
+                <div class="row">
+                    
+                </div>
+            </div>
         </div>
     </div>
 </body>
