@@ -1,6 +1,5 @@
 # Ismert hibák:
-- Nincs, írj ha találtál valamit
-
+- A kereső nem működik
 # Tervezés alatt
 - Home + About page tovább fejlesztése
 - Plusz oldalak hozzáadása
