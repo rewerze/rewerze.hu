@@ -13,19 +13,19 @@
             <!-- Fontos oldalak -->
             <ul class="navbar-nav me-auto text-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="/aboutme">About</a>
+                    <a class="nav-link" href="aboutme.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/socials">Social</a>
+                    <a class="nav-link" href="socials.html">Social</a>
                 </li>
             </ul>
 
             <!-- Form -->
             <div>
-                <form id="endpointForm" class="d-flex">
+                <form id="endpointForm" class="d-flex" autocomplete="off">
                     <input type="text" class="form-control me-2" id="endpointInput" placeholder="JELENLEG NEM MŰKÖDIK">
                     <input type="submit" class="btn btn-primary" value="Keresés">
                 </form>
@@ -41,7 +41,7 @@
                 case "home":
                     window.location.href = "/";
                     break;
-                case (endpoint == "youtube" || endpoint == "yt"):
+                case "youtube":
                     window.location.href = "https://youtube.com/rewerze";
                     break;
                 case "twitch":
@@ -51,7 +51,7 @@
                     alert("Légyszi, írd be az oldalt amire szeretnél keresni!");
                     break;
                 default:
-                    window.location.href = endpoint;
+                    window.location.href = endpoint + ".html";
                     break;
             }
         });

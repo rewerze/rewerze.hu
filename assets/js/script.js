@@ -7,7 +7,7 @@ function copyToClipboard(text) {
   document.execCommand("copy");
   document.body.removeChild(name);
 
-  const button = document.querySelector("button");
+  const button = document.querySelector("button.discord");
   button.classList.remove("discord");
   button.classList.add("btn-outline-success");
   document.getElementById("discord-img").src =
@@ -23,7 +23,7 @@ function copyToClipboard(text) {
   }, 1500);
 }
 
-//Nav:Import
+//Nav:Import W3school
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
