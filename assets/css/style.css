@@ -68,6 +68,35 @@ button:hover .logo-top {
   width: 0%;
 }
 
+.blog {
+  margin: 0 10%;
+}
+
+.blog h2 {
+  font-size: 34px;
+}
+
+.blog h3 {
+  font-size: 25px;
+}
+
+hr {
+  width: 75%;
+}
+
+.blog ul,
+p {
+  font-size: larger;
+}
+
+li {
+  list-style-type: square;
+}
+
+.lab {
+  color: #7f7f7f;
+  text-align: end;
+}
 
 .yt {
   --bs-btn-color: #ff0000;
