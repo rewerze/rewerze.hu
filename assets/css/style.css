@@ -92,6 +92,11 @@ li {
 .lab {
   color: #7f7f7f;
   text-align: end;
+  margin-bottom: 20px;
+}
+
+.blog a {
+  color: red;
 }
 
 .yt {
