@@ -1,0 +1,29 @@
+.bingo-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+    margin: auto 250px auto 250px;
+}
+
+.bingo-cell {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.bingo-cell.marked {
+    background-color: #4abf1f;
+    color: black;
+}
+
+.bingo-cell:hover {
+    background-color: #d7dd93;
+}
+
+.instagram-media {
+    margin-right: auto;
+}
