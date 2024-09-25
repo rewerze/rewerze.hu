@@ -1,6 +1,6 @@
         // Bingó cellák generálása
         const phrases = [
-            "TÉNYLEG LIVE LEGYEN", "Minecraft Dungeons", "Zene", "End update", "Új spin-off",
+            "TÉNYLEG LIVE LEGYEN", "Minecraft Dungeons", "Új fa típus", "Egyedi zene", "Új spin-off",
             "Youtuber promo", "1+ óra", "Marketplace dolgok", "Mob vote vége", "Fejlesztést segítő újítások",
             "Minecraft movie hírek", "Szülinap", "1.22 update", "Absolute cinema 👏🎬", "Kollab",
             "Minecraft Legends", "Új boss", "Bedrock DLC", "MEME potenciál", "Community show pre-show",
