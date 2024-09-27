@@ -46,3 +46,8 @@
 .carousel-inner {
     text-align: center;
 }
+
+hr {
+    margin: auto;
+    width: 50%;
+}
