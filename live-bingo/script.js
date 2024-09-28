@@ -3,7 +3,7 @@
             "Youtuber promo", "Minecraft movie hírek", "Cringe", "Hardcore újitások", "Új spin-off",
             "TÉNYLEG LIVE LEGYEN", "1+ óra", "Marketplace dolgok", "Mob vote vége", "Fejlesztést segítő újítások",
             "Minecraft Dungeons", "Szülinap 🎂", "1.22-es update bejelentése", "Absolute cinema 👏🎬", "Sneak peak a kisebb droppokról 👀",
-            "Fletching table", "1.21.2 release date", "Bedrock DLC", "MEME potenciál", "Community show pre-show",
+            "Fletching table hasznosítása", "1.21.2 release date", "Bedrock DLC", "MEME potenciál", "Community show pre-show",
             "Minecraft Netflix hírek", "Vote vesztes", "Education Edition", "Váratlan bejelentés", "End update"
         ];
 
