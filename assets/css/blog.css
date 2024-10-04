@@ -1,0 +1,35 @@
+.blog {
+    margin: 0 10%;
+  }
+  
+  .blog h2 {
+    font-size: 34px;
+  }
+  
+  .blog h3 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  
+  hr {
+    width: 75%;
+  }
+  
+  .blog ul,
+  p {
+    font-size: larger;
+  }
+  
+  li {
+    list-style-type: square;
+  }
+  
+  .lab {
+    color: #7f7f7f;
+    text-align: end;
+    margin-bottom: 20px;
+  }
+  
+  .blog a {
+    color: red;
+  }
