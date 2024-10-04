@@ -38,12 +38,7 @@ p {
 .logo,
 .logo-top {
   margin-top: 1px;
-}
-
-.logo-mc {
-  margin-top: 3.5px;
-  max-width: 8%;
-  float: left;
+  height: 100%;
 }
 
 
@@ -202,7 +197,7 @@ li {
 }
 
 .mc {
-  --bs-btn-color: #008327;
+  --bs-btn-color: rgb(0, 131, 39);
   --bs-btn-border-color: #008327;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #008327;
