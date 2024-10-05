@@ -1,35 +1,43 @@
 .blog {
-    margin: 0 10%;
-  }
-  
-  .blog h2 {
-    font-size: 34px;
-  }
-  
-  .blog h3 {
-    font-size: 25px;
-    margin-top: 10px;
-  }
-  
-  hr {
-    width: 75%;
-  }
-  
-  .blog ul,
-  p {
-    font-size: larger;
-  }
-  
-  li {
-    list-style-type: square;
-  }
-  
-  .lab {
-    color: #7f7f7f;
-    text-align: end;
-    margin-bottom: 20px;
-  }
-  
-  .blog a {
-    color: red;
-  }
+  width: 50%;
+}
+
+.blog h2 {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.blog h3 {
+  font-size: 26px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+hr {
+  width: 75%;
+}
+
+.blog ul,
+p {
+  font-size: larger;
+}
+
+li {
+  list-style-type: square;
+}
+
+footer {
+  color: #7f7f7f;
+  margin-bottom: 20px;
+  text-align: end;
+}
+
+.blog a {
+  color: red;
+}
+
+.blog p {
+  margin: 0 10px;
+  font-size: 18px;
+  text-align: justify;
+}
