@@ -1,0 +1,30 @@
+body {
+  background-color: #19222c;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  scrollbar-width: none;
+}
+
+h1 {
+  color: rgb(255, 99, 99);
+  font-size: 100px;
+  text-shadow: 8px 5px 0px rgb(203, 31, 31);
+}
+
+p {
+  font-size: 30px;
+  color: rgb(255, 216, 208);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(255, 216, 208);
+  font-size: 30px;
+}
+
+.arrow {
+  font-size: 20px;
+}

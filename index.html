@@ -7,66 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="../assets/js/script.js"></script>
 </head>
 
 <body>
     <div class="w3-animate-opacity w3-animate-bottom center">
         <h1>rewerze</h1>
-        <!-- GOMBOK -->
-        <div class="container rainbow mid">
-            <div class="row row-cols-1 gap-2">
-                <!-- Youtube -->
-                <a href="https://www.youtube.com/rewerze" class="btn yt btn-lg" role="button" target="_blank">
-                    <img src="../assets/images/youtube_red.svg" class="logo-top">
-                    <img src="../assets/images/youtube_black.svg" class="logo">
-                    <p class="social-text">Youtube</p>
-                </a>
-                <!-- Twitch -->
-                <a href="https://twitch.tv/rewerzexd" class="btn twitch btn-lg" role="button" target="_blank">
-                    <img src="../assets/images/twitch_purple.svg" class="logo-top">
-                    <img src="../assets/images/twitch_black.svg" class="logo">
-                    <p class="social-text">Twitch</p>
-                </a>
-                <!-- Tiktok -->
-                <a href="https://tiktok.com/@vaj.projekt" class="btn tiktok btn-lg" role="button" target="_blank">
-                    <img src="../assets/images/tiktok_red.svg" class="logo-top">
-                    <img src="../assets/images/tiktok_blue.svg" class="logo">
-                    <p class="social-text">Tiktok</p>
-                </a>
-                <!-- Discord -->
-                <button onclick="copyToClipboard('@rewerze')" class="btn discord btn-lg">
-                    <img src="../assets/images/discord_purple.svg" class="logo-top" id="discord-img">
-                    <img src="../assets/images/discord_black.svg" class="logo">
-                    <p class="discord social-text" id="discord">Discord</p>
-                </button>
-                <!-- Twitter -->
-                <a href="https://twitter.com/rewerze" class="btn twitter btn-lg" role="button" target="_blank">
-                    <img src="../assets/images/twitter_blue.svg" class="logo-top">
-                    <img src="../assets/images/twitter_black.svg" class="logo">
-                    <p class="social-text">Twitter</p>
-                </a>
-                <!-- Steam -->
-                <a href="https://steamcommunity.com/id/rewerze/" class="btn steam btn-lg" role="button" target="_blank">
-                    <img src="../assets/images/steam_blue.svg" class="logo-top">
-                    <img src="../assets/images/steam_black.svg" class="logo">
-                    <p class="social-text">Steam</p>
-                </a>
-                <!-- Minecraft -->
-                <a href="https://namemc.com/profile/rewerze.1" class="btn mc btn-lg" role="button" target="_blank">
-                    <img src="../assets/images/minecraft_green.svg" class="logo-top">
-                    <img src="../assets/images/minecraft_black.svg" class="logo">
-                    <p class="social-text">Minecraft</p>
-                </a>
+
+        <!-- Üdvözlő szöveg -->
+        <div class="container">
+        <h2>Rólam</h2>
+        <div class="text-center border border-5 p-3">
+            <p>Suhajda Zsolt Péter vagyok (online csak rewerze), 20 éves és 1. féléves hallgató vagyok az Óbudai Egyetem NIK karán, mérnökinformatikai szakon. Vágyam, hogy egyszer játékokat fejleszthessek és olyan élményeket nyújthassak másoknak, amilyeneket én is átéltem videójátékokon keresztül.</p>
+            <p>Ez az oldal egyfajta archívum, ahol megosztom a munkáimat és a fejlődésemet a játékfejlesztés terén.</p>
+        </div>
+
+        <!-- Boxok  -->
+        <div class="d-flex justify-content-center py-5 gap-5">
+            <div class="border border-5 p-3 w-100">
+                <h3>Ahol megtalálsz</h3>
+                <hr>
+                <ul class="py-4">
+                    <li>Egyetem folyosóin</li>
+                    <li>Discordon: rewerze</li>
+                </ul>
             </div>
+            <div class="border border-5 p-3 w-100">
+                <h3>Projektek</h3>
+                <hr>
+                <ul class="py-4">
+                    <li><a href="https://rewerze.hu/projektek" target="_blank">Archívum</a></li>
+                    <li><a href="https://github.com/rewerze" target="_blank">Github</a></li>
+                </ul>
+            </div>
+            <div class="border border-5 p-3 w-100">
+                <h3>Egyéb hobbik</h3>
+                <hr>
+                <ul class="py-4">
+                    <li>Érdekelnek különböző nyelvek</li>
+                    <li>Vonz a zene és a rajzolás</li>
+                </ul>
+            </div>
+        </div>
+        <div class="border border-5 p-3">
+            <h3>Program nyelvek amiket ismerek:</h3>
+            <ul>
+                <li>Kezdő szinten: Web ( HTML, CSS, JavaScript ), Python, Laravel</li>
+                <li>Közepesen: C#, MySQL</li>
+                <li>Jelenleg tanulom: Java, C++</li>
+            </ul>
         </div>
     </div>
 </body>
