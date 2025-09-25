@@ -82,12 +82,22 @@ a:hover {
   li {
     text-align: center;
     list-style: none;
-    margin-right: 20px;
+    margin-right: 25px;
   }
+}
+
+@media screen and (max-width: 768px) {
+ p {
+    text-align: justify;
+ }
+  
 }
 
 @media screen and (max-width: 576px) {
   .info-box {
     width: 90%;
+  }
+  p {
+    text-align: center;
   }
 }
