@@ -59,3 +59,35 @@ a {
 a:hover {
   color: rgb(255, 99, 71);
 }
+
+.my-center {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.info-box {
+  border: 5px solid white;
+  padding: 20px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 991px) {
+  .my-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    text-align: center;
+    list-style: none;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .info-box {
+    width: 90%;
+  }
+}
