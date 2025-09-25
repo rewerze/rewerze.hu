@@ -5,6 +5,7 @@ body {
   font-style: normal;
   color: white;
   scrollbar-width: none;
+  margin-bottom: 50px;
 }
 
 
@@ -14,7 +15,7 @@ h1 {
   text-align: center;
   padding-bottom: 20px;
   font-size: 100px;
-  text-shadow: 8px 5px 0px rgb(31, 105, 203);
+  text-shadow: 6px 5px 0px rgb(31, 105, 203);
 }
 
 h2 {
@@ -27,7 +28,7 @@ h3 {
   color: rgb(255, 255, 99);
   text-align: center;
   font-size: 40px;
-  text-shadow: 4px 3px 0px rgb(192, 203, 31);
+  text-shadow: 3px 2px 0px rgb(192, 203, 31);
 }
 
 p {
@@ -58,6 +59,7 @@ a {
 
 a:hover {
   color: rgb(255, 99, 71);
+  transition: 200ms all ease-in-out;
 }
 
 .my-center {
