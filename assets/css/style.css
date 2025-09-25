@@ -16,19 +16,20 @@ h1 {
   padding-bottom: 20px;
   font-size: 100px;
   text-shadow: 6px 5px 0px rgb(31, 105, 203);
+  letter-spacing: 10px;
 }
 
 h2 {
   color: rgb(103, 128, 255);
-  font-size: 70px;
   text-shadow: 4px 3px 0px rgb(42, 87, 159);
+  font-size: 70px;
+  letter-spacing: 3px;
 }
 
 h3 {
-  color: rgb(255, 255, 99);
   text-align: center;
-  font-size: 40px;
-  text-shadow: 3px 2px 0px rgb(192, 203, 31);
+  font-size: 45px;
+  letter-spacing: 3px;
 }
 
 p {
@@ -39,27 +40,10 @@ p {
   padding: 0;
 }
 
-hr {
-  border: 3px solid rgb(255, 255, 99);
-  margin: 0px auto 0px auto;
-  width: 70%;
-  opacity: 1;
-}
-
 li {
   list-style-type: square;
   font-size: 30px;
   text-align: justify;
-  color: rgb(255, 188, 81);
-}
-
-a {
-  color: rgb(255, 188, 81);
-}
-
-a:hover {
-  color: rgb(255, 99, 71);
-  transition: 200ms all ease-in-out;
 }
 
 .my-center {
@@ -68,10 +52,54 @@ a:hover {
   gap: 15px;
 }
 
+.about-box {
+  border: 5px solid rgb(175, 187, 255);
+}
+
 .info-box {
-  border: 5px solid white;
+  border: 5px solid rgb(255, 244, 172);
   padding: 20px;
   width: 100%;
+}
+
+.info-box  h3{
+  color: rgb(255, 255, 99);
+  text-shadow: 3px 2px 0px rgb(192, 203, 31);
+}
+
+.info-box li, .info-box a {
+  color: rgb(255, 188, 81);
+  transition: 300ms all ease-in-out;
+}
+
+.info-box a:hover {
+  color: rgb(255, 99, 71);
+  position: absolute;
+  transition: 200ms all ease-in-out;
+  transform: scaleY(1.25) rotate(2deg);
+}
+
+.info-box hr {
+  border: 3px solid rgb(255, 255, 99);
+  margin: 0px auto 0px auto;
+  width: 80%;
+  opacity: 1;
+}
+
+.code-box {
+  border: 5px solid rgb(222, 255, 184);
+  padding: 20px;
+  width: 100%;
+}
+
+.code-box h3 {
+  color: rgb(178, 255, 146);
+  text-shadow: 3px 2px 0px rgb(107, 195, 70);
+}
+
+.code-box li, .code-box a {
+  color: rgb(61, 230, 49);
+  transition: 300ms all ease-in-out;
 }
 
 
