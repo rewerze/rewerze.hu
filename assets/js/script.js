@@ -22,9 +22,9 @@ function titleAnimation() {
                 titleArray[i - 1] = titleArray[i - 1].toLowerCase();
                 document.getElementById("title").innerText = titleArray.join("");
             }
-        }, 750 * i);
+        }, 800 * i);
 }
-    setTimeout(titleAnimation, 750 * titleArray.length);
+    setTimeout(titleAnimation, 800 * titleArray.length);
 }
 
 titleAnimation();

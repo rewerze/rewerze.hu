@@ -154,12 +154,14 @@ li {
  .info-box li {
   margin-top: 10px;
  }
+ 
+ .code-box li{
+    margin-top: 20px;
+ }
 
   .code-level {
     display: inline;
- }
- .code-box li{
-    margin-top: 20px;
+    font-size: 37px;
  }
 
  .code-level:after {
