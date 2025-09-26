@@ -1,30 +1,35 @@
-var title = "rewerze";
-var titleArray = title.split("");
-
-console.log(titleArray);
-
 function titleAnimation() {
-    for (let i = 0; i < titleArray.length; i++) {
-        setTimeout(function() {
-            titleArray[i] = titleArray[i].toUpperCase();
-            document.getElementById("title").innerText = titleArray.join("");
-            if (i > 0)
-            {
-                titleArray[i - 1] = titleArray[i - 1].toLowerCase();
-                document.getElementById("title").innerText = titleArray.join("");
-            }
-            else if (i == 0)
-            {
-                titleArray[titleArray.length - 1] = titleArray[titleArray.length - 1].toLowerCase();
-                document.getElementById("title").innerText = titleArray.join("");
-            }
-            else {
-                titleArray[i - 1] = titleArray[i - 1].toLowerCase();
-                document.getElementById("title").innerText = titleArray.join("");
-            }
-        }, 800 * i);
-}
-    setTimeout(titleAnimation, 800 * titleArray.length);
+    for (let i = 0; i < 1; i++) {
+        if (window.innerWidth < 768) {
+            setTimeout(function() {
+                document.getElementById("title").style.fontSize = "81px";
+            }, 1000);
+            setTimeout(function() {
+                document.getElementById("title").style.fontSize = "82px";
+            }, 2000);
+            setTimeout(function() {
+                document.getElementById("title").style.fontSize = "81px";
+            }, 3000);
+            setTimeout(function() {
+                document.getElementById("title").style.fontSize = "80px";
+            }, 4000);
+        }
+        else {
+            setTimeout(function() {
+                document.getElementById("title").style.fontSize = "121px";
+            }, 1000);
+            setTimeout(function() {
+                document.getElementById("title").style.fontSize = "122px";
+            }, 2000);
+            setTimeout(function() {
+                document.getElementById("title").style.fontSize = "121px";
+            }, 3000);
+            setTimeout(function() {
+                document.getElementById("title").style.fontSize = "120px";
+            }, 4000);
+        }   
+    }
+    setTimeout(titleAnimation, 4000);
 }
 
 titleAnimation();

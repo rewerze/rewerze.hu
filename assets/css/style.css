@@ -9,20 +9,24 @@ body {
   overflow-x: hidden;
 }
 
+.title-container {
+  height: 150px;
+}
+
 
 h1 {
   color: rgb(99, 208, 255);
-  margin: 30px 0px 0px 0px;
+  margin: 30px 0px 30px 0px;
   text-align: center;
   padding-bottom: 20px;
-  font-size: 100px;
+  font-size: 120px;
   text-shadow: 6px 5px 0px rgb(31, 105, 203);
   letter-spacing: 10px;
 }
 
 h2 {
-  color: rgb(103, 128, 255);
-  text-shadow: 4px 3px 0px rgb(42, 87, 159);
+  color: rgb(119, 142, 255);
+  text-shadow: 4px 3px 0px rgb(37, 78, 145);
   font-size: 70px;
   letter-spacing: 3px;
 }
@@ -55,29 +59,33 @@ li {
 }
 
 .about-box {
-  border: 5px solid rgb(175, 187, 255);
-  transition: 200ms all ease-in-out;
+  border-top: 5px solid rgb(175, 187, 255);
+  border-bottom: 5px solid rgb(175, 187, 255);
+  transition: 300ms all ease-in-out;
+  background-color: rgba(65, 75, 131, 0);
 }
 
 .about-box:hover {
-  background-color: rgba(175, 187, 255, 0.03);
-  transition: 200ms all ease-in-out;
-}
-
-.info-box {
-  border: 5px solid rgb(255, 244, 172);
-  padding: 20px;
-  width: 100%;
+  background-color: rgba(65, 75, 131, 0.04);
   transition: 300ms all ease-in-out;
 }
 
+.info-box {
+  border: 5px solid rgb(255, 194, 143);
+  box-shadow: 3px 3px 0px 0px rgb(197, 119, 46);
+  padding: 20px;
+  width: 100%;
+  transition: 300ms all ease-in-out;
+  background-color: rgba(147, 194, 93, 0);
+}
+
 .info-box  h3{
-  color: rgb(255, 255, 99);
-  text-shadow: 3px 2px 0px rgb(192, 203, 31);
+  color: rgb(255, 174, 107);
+  text-shadow: 3px 2px 0px rgb(167, 86, 11);
 }
 
 .info-box li, .info-box a {
-  color: rgb(255, 188, 81);
+  color: rgb(252, 122, 2);
   transition: 300ms all ease-in-out;
 }
 
@@ -90,27 +98,29 @@ li {
 
 .info-box:hover {
   transition: 300ms all ease-in-out;
-  background-color: rgba(255, 244, 172, 0.03);
+  background-color: rgba(255, 244, 172, 0.02);
   transform: scale(1.01);
 }
 
 .info-box hr {
-  border: 3px solid rgb(255, 255, 99);
+  border: 3px solid rgb(255, 174, 107);
   margin: 0px auto 0px auto;
   width: 80%;
   opacity: 1;
 }
 
 .code-box {
-  border: 5px solid rgb(222, 255, 184);
+  border-top: 5px solid rgb(204, 255, 146);
+  border-bottom: 5px solid rgb(204, 255, 146);
   padding: 20px;
   width: 100%;
   transition: 200ms all ease-in-out;
+  background-color: rgba(147, 194, 93, 0);
 }
 
 .code-box h3 {
-  color: rgb(178, 255, 146);
-  text-shadow: 3px 2px 0px rgb(107, 195, 70);
+  color: rgb(150, 255, 106);
+  text-shadow: 3px 2px 0px rgb(100, 182, 65);
 }
 
 .code-box li, .code-box a {
@@ -119,8 +129,8 @@ li {
 }
 
 .code-box:hover {
-  transition: 200ms all ease-in-out;
-  background-color: rgba(222, 255, 184, 0.03);
+  transition: 300ms all ease-in-out;
+  background-color: rgba(147, 194, 93, 0.02);
 }
 
 .code-level {
@@ -176,7 +186,7 @@ li {
  }
 
  h1 {
-    font-size: 70px;
+    font-size: 80px;
     letter-spacing: 10px;
   }
 }
@@ -185,4 +195,15 @@ li {
   p {
     text-align: center;
   }
+
+  .about-box {
+    border: 5px solid rgb(175, 187, 255);
+    box-shadow: 3px 3px 0 0 rgb(76, 103, 255);
+  }
+
+  .code-box {
+    border: 5px solid rgb(204, 255, 146);
+    box-shadow: 3px 3px 0 0 rgb(125, 190, 50);
+  }
+
 }
