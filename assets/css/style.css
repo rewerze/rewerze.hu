@@ -146,7 +146,7 @@ li {
 
   .info-box a:hover {
   color: rgb(255, 99, 71);
-  position: absolute;
+  position: relative;
   transition: 200ms all ease-in-out;
   transform: scaleY(1) rotate(0deg);
 }
