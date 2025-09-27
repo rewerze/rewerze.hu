@@ -38,17 +38,18 @@ h3 {
 }
 
 p {
-  font-size: 30px;
+  font-size: 33px;
   text-align: justify;
   color: rgb(119, 119, 255);
   margin: 0;
   padding: 0;
+  line-height: 1.2;
 }
 
 li {
   list-style-type: square;
-  font-size: 30px;
-  text-align: justify;
+  font-size: 33px;
+  line-height: 1.1;
 }
 
 .my-center {
@@ -87,13 +88,6 @@ li {
 .info-box li, .info-box a {
   color: rgb(252, 122, 2);
   transition: 300ms all ease-in-out;
-}
-
-.info-box a:hover {
-  color: rgb(255, 99, 71);
-  position: absolute;
-  transition: 200ms all ease-in-out;
-  transform: scaleY(1.25) rotate(2deg);
 }
 
 .info-box:hover {
@@ -138,6 +132,27 @@ li {
   text-decoration: underline;
 }
 
+.link1:hover{
+  color: rgb(255, 99, 71);
+  position: absolute;
+  transition: 200ms all ease-in-out;
+  transform: scalex(1.25) skew(5deg) translateX(15px);
+}
+
+.link2:hover{
+  color: rgb(255, 99, 71);
+  position: absolute;
+  transition: 200ms all ease-in-out;
+  transform: scaleY(1.25) rotate(2deg) translate3d(-1px, -1px, 0px);
+}
+
+.link3:hover{
+  color: rgb(255, 99, 71);
+  position: absolute;
+  transition: 200ms all ease-in-out;
+  transform: scaleY(1.25) rotate(-2deg) translate3d(1px, 1px, 0px);
+}
+
 
 @media screen and (max-width: 991px) {
   h2 {
@@ -154,27 +169,35 @@ li {
     margin-right: 25px;
   }
 
-  .info-box a:hover {
-  color: rgb(255, 99, 71);
-  position: relative;
-  transition: 200ms all ease-in-out;
-  transform: scaleY(1) rotate(0deg);
-}
+  .link1:hover{
+    color: rgb(255, 99, 71);
+    transition: 200ms all ease-in-out;
+  }
 
- .info-box li {
+  .link2:hover{
+    color: rgb(255, 99, 71);
+    transition: 200ms all ease-in-out;
+  }
+
+  .link3:hover{
+    color: rgb(255, 99, 71);
+    transition: 200ms all ease-in-out;
+  }
+
+  .info-box li {
   margin-top: 10px;
- }
+  }
  
- .code-box li{
+  .code-box li{
     margin-top: 20px;
- }
+  }
 
   .code-level {
     display: inline;
-    font-size: 37px;
- }
+    font-size: 38px;
+  }
 
- .code-level:after {
+  .code-level:after {
     content:"\a";
     white-space: pre;
   }
